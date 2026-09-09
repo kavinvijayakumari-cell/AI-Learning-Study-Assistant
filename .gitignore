@@ -1,0 +1,31 @@
+# Environment variables & Sensitive keys
+.env
+*.env
+
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Vector Database Local Cache (Generated at runtime)
+chroma_db/
+*.chromadb
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ReportLab & Build Artifacts
+build/
+dist/
+*.egg-info/
